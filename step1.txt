@@ -1,0 +1,22 @@
+1. insert 1.03 s
+   append 2.98 ms
+extraLargeArray
+
+2. largeArray
+insert 8.67 ms
+append 518.5 us
+
+3. mediumArray
+insert 177.5 us
+append 143.7 us
+
+4.smallArray
+insert 50.8 us
+append 105.5 us
+
+5. tinyArray
+insert 36.6 us
+append 92.2 us
+
+While append scales better insert has the ability to be faster, just going off the timers we have set up.
+insert is faster only for tiny and small.
